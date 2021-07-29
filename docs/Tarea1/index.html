@@ -10,6 +10,72 @@
     <h1>Tarea #1 - 201503723</h1>
     <h2>Bryan Gustavo López Echeverría</h2>
     <h2>Reflex Agent</h2>
+    <p>Considerar el problema de la aspiradora, modificar el código para que logre visitar los 8 estados, al menos 2 veces cada uno y que ademas deje las dos locaciones limpias.</p>
+    <table>
+        <tr>
+            <th>No. estado</th>
+            <th>A</th>
+            <th>B</th>
+            <th>Location</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>DIRTY</td>
+            <td>DIRTY</td>
+            <td>A</td>
+            <td>LIMPIAR A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>DIRTY</td>
+            <td>DIRTY</td>
+            <td>B</td>
+            <td>LIMPIAR B</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>DIRTY</td>
+            <td>CLEAN</td>
+            <td>A</td>
+            <td>LIMPIAR A</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>DIRTY</td>
+            <td>CLEAN</td>
+            <td>B</td>
+            <td>MOVER a A</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>CLEAN</td>
+            <td>DIRTY</td>
+            <td>A</td>
+            <td>MOVER a B</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>CLEAN</td>
+            <td>DIRTY</td>
+            <td>B</td>
+            <td>LIMPIAR B</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>CLEAN</td>
+            <td>CLEAN</td>
+            <td>A</td>
+            <td>MOVER a B</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>CLEAN</td>
+            <td>CLEAN</td>
+            <td>B</td>
+            <td>MOVER a A</td>
+        </tr>
+    </table>
     <p id="log"></p>
     <script type="text/javascript" src="main.js"></script>
 </body>
