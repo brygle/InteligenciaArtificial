@@ -94,8 +94,8 @@ function test(states, visits){
             let bandera = false;
             for(let i = 0; i < visits.length; i++){
                 if (visits[i] < 2
-                    /*|| states[1] == "DIRTY"
-                    || states[2] == "DIRTY"*/
+                    || states[1] == "DIRTY"
+                    || states[2] == "DIRTY"
                     ) {
                     bandera = true;
                 }
