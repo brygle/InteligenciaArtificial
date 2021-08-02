@@ -93,10 +93,7 @@ function test(states, visits){
         function(){ 
             let bandera = false;
             for(let i = 0; i < visits.length; i++){
-                if (visits[i] < 2
-                    || states[1] == "DIRTY"
-                    || states[2] == "DIRTY"
-                    ) {
+                if (visits[i] < 2) {
                     bandera = true;
                 }
             }
